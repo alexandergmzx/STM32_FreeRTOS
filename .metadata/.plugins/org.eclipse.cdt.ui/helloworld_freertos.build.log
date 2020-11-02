@@ -1,0 +1,7 @@
+21:08:38 **** Clean-only build of configuration Debug for project helloworld_freertos ****
+make -j2 clean 
+rm -rf *
+ 
+
+21:08:39 Build Finished. 0 errors, 0 warnings. (took 754ms)
+

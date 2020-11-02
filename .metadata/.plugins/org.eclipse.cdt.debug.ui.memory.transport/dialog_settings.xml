@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="EXPORT_DIALOG">
+		<item key="Start" value="0x20013220"/>
+		<item key="End" value="0x20015220"/>
+		<item key="Initial address" value="0x20013220"/>
+		<item key="File" value="/home/alex5/Documents/STMCubeIDE/FreeRTOS_Workspace/helloworld_freertos/segger_memdump/helloworld_f413_dump_noSWtimers.SVdat"/>
+		<item key="SELECTED_EXPORTER" value="rawbinary"/>
+	</section>
+</section>

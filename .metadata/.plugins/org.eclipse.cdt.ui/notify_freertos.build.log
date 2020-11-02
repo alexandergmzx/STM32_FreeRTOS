@@ -1,0 +1,23 @@
+16:32:26 **** Incremental Build of configuration Debug for project notify_freertos ****
+make -j2 all 
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F413_423xx -DSTM32F413ZHT -DSTM32 -DSTM32F4 -DNUCLEO_F413ZH -DDEBUG -DUSE_STDPERIPH_DRIVER -DNUCLEO_F413ZH -DSTM32F413ZHTx -DSTM32F4 -DDEBUG -c -I../Inc -I"/home/alex5/Documents/STMCubeIDE/FreeRTOS_Workspace/notify_freertos/Third-Party/SEGGER/Config" -I"/home/alex5/Documents/STMCubeIDE/FreeRTOS_Workspace/notify_freertos/Third-Party/SEGGER/OS" -I"/home/alex5/Documents/STMCubeIDE/FreeRTOS_Workspace/notify_freertos/Third-Party/SEGGER/SEGGER" -I"/home/alex5/Documents/STMCubeIDE/FreeRTOS_Workspace/notify_freertos/Third-Party/FreeRTOS/org/Source/include" -I"/home/alex5/Documents/STMCubeIDE/FreeRTOS_Workspace/notify_freertos/config" -I"/home/alex5/Documents/STMCubeIDE/FreeRTOS_Workspace/notify_freertos/Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"/home/alex5/Documents/STMCubeIDE/FreeRTOS_Workspace/notify_freertos/CMSIS/core" -I"/home/alex5/Documents/STMCubeIDE/FreeRTOS_Workspace/notify_freertos/CMSIS/device" -I"/home/alex5/Documents/STMCubeIDE/FreeRTOS_Workspace/notify_freertos/inc" -I"/home/alex5/Documents/STMCubeIDE/FreeRTOS_Workspace/notify_freertos/StdPeriph_Driver/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/main.o"
+arm-none-eabi-gcc -o "notify_freertos.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/alex5/Documents/STMCubeIDE/FreeRTOS_Workspace/notify_freertos/STM32F413ZHTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="notify_freertos.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: notify_freertos.elf
+ 
+arm-none-eabi-objdump -h -S  notify_freertos.elf  > "notify_freertos.list"
+arm-none-eabi-objcopy  -O binary  notify_freertos.elf  "notify_freertos.bin"
+Finished building: notify_freertos.bin
+ 
+arm-none-eabi-objcopy  -O verilog  notify_freertos.elf  "notify_freertos.verilog"
+Finished building: notify_freertos.verilog
+ 
+arm-none-eabi-size   notify_freertos.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18940	    148	  88788	 107876	  1a564	notify_freertos.elf
+Finished building: default.size.stdout
+ 
+Finished building: notify_freertos.list
+ 
+
+16:32:27 Build Finished. 0 errors, 0 warnings. (took 1s.57ms)
+

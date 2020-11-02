@@ -1,0 +1,23 @@
+20:33:28 **** Incremental Build of configuration Debug for project led_buttonIT_freertos2 ****
+make -j2 all 
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DSTM32 -DSTM32F413_423xx -DSTM32F413ZHT -DSTM32 -DSTM32F4 -DNUCLEO_F413ZH -DDEBUG -DUSE_STDPERIPH_DRIVER -DNUCLEO_F413ZH -DSTM32F413ZHTx -DSTM32F4 -DDEBUG -c -I../Inc -I"/home/alex5/Documents/STMCubeIDE/FreeRTOS_Workspace/led_buttonIT_freertos2/Third-Party/SEGGER/Config" -I"/home/alex5/Documents/STMCubeIDE/FreeRTOS_Workspace/led_buttonIT_freertos2/Third-Party/SEGGER/OS" -I"/home/alex5/Documents/STMCubeIDE/FreeRTOS_Workspace/led_buttonIT_freertos2/Third-Party/SEGGER/SEGGER" -I"/home/alex5/Documents/STMCubeIDE/FreeRTOS_Workspace/led_buttonIT_freertos2/Third-Party/FreeRTOS/org/Source/include" -I"/home/alex5/Documents/STMCubeIDE/FreeRTOS_Workspace/led_buttonIT_freertos2/config" -I"/home/alex5/Documents/STMCubeIDE/FreeRTOS_Workspace/led_buttonIT_freertos2/Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"/home/alex5/Documents/STMCubeIDE/FreeRTOS_Workspace/led_buttonIT_freertos2/CMSIS/core" -I"/home/alex5/Documents/STMCubeIDE/FreeRTOS_Workspace/led_buttonIT_freertos2/CMSIS/device" -I"/home/alex5/Documents/STMCubeIDE/FreeRTOS_Workspace/led_buttonIT_freertos2/inc" -I"/home/alex5/Documents/STMCubeIDE/FreeRTOS_Workspace/led_buttonIT_freertos2/StdPeriph_Driver/inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "src/main.o"
+arm-none-eabi-gcc -o "led_buttonIT_freertos2.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/alex5/Documents/STMCubeIDE/FreeRTOS_Workspace/led_buttonIT_freertos2/STM32F413ZHTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led_buttonIT_freertos2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: led_buttonIT_freertos2.elf
+ 
+arm-none-eabi-objdump -h -S  led_buttonIT_freertos2.elf  > "led_buttonIT_freertos2.list"
+arm-none-eabi-objcopy  -O binary  led_buttonIT_freertos2.elf  "led_buttonIT_freertos2.bin"
+Finished building: led_buttonIT_freertos2.bin
+ 
+arm-none-eabi-objcopy  -O verilog  led_buttonIT_freertos2.elf  "led_buttonIT_freertos2.verilog"
+Finished building: led_buttonIT_freertos2.verilog
+ 
+arm-none-eabi-size   led_buttonIT_freertos2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15440	     48	  88760	 104248	  19738	led_buttonIT_freertos2.elf
+Finished building: default.size.stdout
+ 
+Finished building: led_buttonIT_freertos2.list
+ 
+
+20:33:29 Build Finished. 0 errors, 0 warnings. (took 1s.135ms)
+

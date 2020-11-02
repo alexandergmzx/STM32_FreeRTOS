@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="PreviewPatchPage">
+		<item key="expandPatchOptions" value="true"/>
+		<item key="generateRejects" value="false"/>
+	</section>
+	<section name="PatchWizard">
+		<item key="PatchWizardPage1.INPUT_METHOD" value="3"/>
+		<item key="PatchWizardPage1.PATCH_FILES" value=""/>
+		<item key="PatchWizardPage1.WORKSPACE_PATH" value="/helloworld_freertos/Third-Party/SEGGER/Patch/FreeRTOSv10.4.1/FreeRTOSV10_Core.patch"/>
+		<item key="DIALOG_X_ORIGIN" value="61"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
+		<item key="DIALOG_WIDTH" value="989"/>
+		<item key="DIALOG_HEIGHT" value="690"/>
+		<item key="DIALOG_FONT_NAME" value="1|Sans|10.0|0|GTK|1|"/>
+		<list key="PatchWizardPage1.PATCH_FILES">
+			<item value=""/>
+		</list>
+		<list key="PatchWizardPage1.PATCH_URLS">
+			<item value="file:///home/alex5/Downloads/FreeRTOSv10.1.1/FreeRTOS/Source/include/task.h&#x0A;file:///home/alex5/Downloads/FreeRTOSv10.1.1/FreeRTOS/Source/include/timers.h&#x0A;file:///home/alex5/Downloads/FreeRTOSv10.1.1/FreeRTOS/Source/include/semphr.h&#x0A;file:///home/alex5/Downloads/FreeRTOSv10.1.1/FreeRTOS/Source/include/queue.h&#x0A;file:///home/alex5/Downloads/FreeRTOSv10.1.1/FreeRTOS/Source/include/stream_buffer.h&#x0A;file:///home/alex5/Downloads/FreeRTOSv10.1.1/FreeRTOS/Source/include/projdefs.h&#x0A;file:///home/alex5/Downloads/FreeRTOSv10.1.1/FreeRTOS/Source/include/mpu_prototypes.h&#x0A;file:///home/alex5/Downloads/FreeRTOSv10.1.1/FreeRTOS/Source/include/message_buffer.h&#x0A;file:///home/alex5/Downloads/FreeRTOSv10.1.1/FreeRTOS/Source/include/deprecated_definitions.h&#x0A;file:///home/alex5/Downloads/FreeRTOSv10.1.1/FreeRTOS/Source/include/croutine.h&#x0A;file:///home/alex5/Downloads/FreeRTOSv10.1.1/FreeRTOS/Source/include/list.h&#x0A;file:///home/alex5/Downloads/FreeRTOSv10.1.1/FreeRTOS/Source/include/stdint.readme&#x0A;file:///home/alex5/Downloads/FreeRTOSv10.1.1/FreeRTOS/Source/include/StackMacros.h&#x0A;file:///home/alex5/Downloads/FreeRTOSv10.1.1/FreeRTOS/Source/include/portable.h&#x0A;file:///home/alex5/Downloads/FreeRTOSv10.1.1/FreeRTOS/Source/include/stack_macros.h&#x0A;file:///home/alex5/Downloads/FreeRTOSv10.1.1/FreeRTOS/Source/include/mpu_wrappers.h&#x0A;file:///home/alex5/Downloads/FreeRTOSv10.1.1/FreeRTOS/Source/include/FreeRTOS.h&#x0A;file:///home/alex5/Downloads/FreeRTOSv10.1.1/FreeRTOS/Source/include/event_groups.h&#x0A;"/>
+			<item value=""/>
+			<item value="file:///home/alex5/Downloads/SystemView_Target/SEGGER/SEGGER.h&#x0A;file:///home/alex5/Downloads/SystemView_Target/SEGGER/SEGGER_SYSVIEW.h&#x0A;file:///home/alex5/Downloads/SystemView_Target/SEGGER/SEGGER_RTT.c&#x0A;file:///home/alex5/Downloads/SystemView_Target/SEGGER/SEGGER_SYSVIEW.c&#x0A;file:///home/alex5/Downloads/SystemView_Target/SEGGER/SEGGER_SYSVIEW_Int.h&#x0A;file:///home/alex5/Downloads/SystemView_Target/SEGGER/SEGGER_SYSVIEW_ConfDefaults.h&#x0A;file:///home/alex5/Downloads/SystemView_Target/SEGGER/SEGGER_RTT.h&#x0A;"/>
+		</list>
+	</section>
+</section>
